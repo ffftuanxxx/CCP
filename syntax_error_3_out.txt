@@ -1,0 +1,14 @@
+Step 0:(0,
+Step 1:(0, fun 4,                                                                      shift 4
+Step 2:(0, fun 4, id 10,                                                               shift 10
+Step 3:(0, fun 4, id 10, bool 21,                                                      shift 21
+Step 4:(0, fun 4, id 10, T 19,                                                         reduce T -> bool
+Step 5:(0, fun 4, id 10, T 19, id 28,                                                  shift 28
+Step 6:(0, fun 4, id 10, A 18,                                                         reduce A -> T id
+Step 7:(0, fun 4, id 10, A 18, -> 27,                                                  shift 27
+Step 8:(0, fun 4, id 10, A 18, -> 27, lit 8,                                           shift 8
+Step 9:(0, fun 4, id 10, A 18, -> 27, E 6,                                             reduce E -> lit
+Step 10:(0, fun 4, id 10, A 18, -> 27, C 33,                                            reduce C -> E
+Step 11:(0, F 2,                                                                        reduce F -> fun id A -> C
+Step 12:(0, F 2, ; 9,                                                                   shift 9
+Step 13:(0, F 2, ; 9, id 0,                                                                        syntax error

@@ -1,0 +1,9 @@
+Step 0:(0,
+Step 1:(0, lit 8,                                                                      shift 8
+Step 2:(0, lit 8, + 16,                                                                shift 16
+Step 3:(0, lit 8, + 16, lit 8,                                                         shift 8
+Step 4:(0, lit 8, + 16, E 26,                                                          reduce E -> lit
+Step 5:(0, E 6,                                                                        reduce E -> lit + E
+Step 6:(0, C 3,                                                                        reduce C -> E
+Step 7:(0, S 1,                                                                        reduce S -> C
+Step 8:(0, S 1, $                                                                       accept
