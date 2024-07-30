@@ -55,7 +55,5 @@ This project implements a custom language grammar with 19 production rules, incl
 - Standard C compiler (GCC used)
 - MinGW for Windows users, or use online GDB (https://www.onlinegdb.com/)
 
-## Testing
-Sample input files:
-- `test1.txt`
-- `test2.txt`
+## Contributors
+- Semantic Analysis stage is still undone for this compiler, please feel free to pull request and make contribution to this project.
