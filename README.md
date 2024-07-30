@@ -56,4 +56,4 @@ This project implements a custom language grammar with 19 production rules, incl
 - MinGW for Windows users, or use online GDB (https://www.onlinegdb.com/)
 
 ## Contributors
-- Semantic Analysis stage is still undone for this compiler, please feel free to pull request and make contribution to this project.
+- Semantic Analysis stage is still undone for this compiler, please feel free to pull request and make contribution to this project~~~
